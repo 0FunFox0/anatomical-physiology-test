@@ -1,0 +1,80 @@
+/* 기본 스타일 */
+body {
+  font-family: 'Arial', sans-serif;
+  background-color: #0d1b2a;
+  color: #e0e1dd;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.container {
+  max-width: 600px;
+  width: 90%;
+  background: #1b263b;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.5);
+  text-align: center;
+}
+
+/* 헤더 스타일 */
+.header h1 {
+  font-size: 2rem;
+  color: #ff8c42;
+}
+
+.header p {
+  margin-top: 10px;
+  font-size: 1.2rem;
+  color: #e0e1dd;
+}
+
+/* 문제와 선택지 스타일 */
+.quiz #question {
+  font-size: 1.5rem;
+  margin: 20px 0;
+}
+
+#options {
+  list-style: none;
+  padding: 0;
+}
+
+#options li {
+  background: #415a77;
+  margin: 10px 0;
+  padding: 10px;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background 0.3s;
+}
+
+#options li:hover {
+  background: #778da9;
+}
+
+#next-btn {
+  margin-top: 20px;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  background: #ff8c42;
+  color: #1b263b;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: background 0.3s;
+}
+
+#next-btn:hover {
+  background: #e76f51;
+}
+
+.footer p {
+  margin-top: 20px;
+  font-size: 0.9rem;
+  color: #e0e1dd;
+}
